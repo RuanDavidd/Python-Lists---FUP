@@ -66,11 +66,13 @@ c = a / b
 print(f"{c:.0f}")'''
 
 # Questão 09
-a = int(input("digite um valor: "))
+'''a = int(input("digite um valor: "))
 b = int(input("digite um valor: "))
 while b != 0:
     resto = a % b
     a = b
     b = resto
-print(f"o mdc é {a}")
+print(f"o mdc é {a}")'''
+
+# Questão 10
 
