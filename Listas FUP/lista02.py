@@ -5,7 +5,6 @@
 """real = float(input("Quanto dinheiro você tem? R$:"))
 dolar = real / 3.92
 print(f"você compra US${dolar:.2f} com RS${real:.2f}")"""
-import math
 
 # Questão 03
 """a = int(input('Digite o tamanho de um lado do retângulo:'))
