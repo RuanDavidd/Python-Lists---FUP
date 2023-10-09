@@ -77,8 +77,45 @@ while b != 0:
 print(f"o mdc é {a}")'''
 
 # Questão 11
-'''num = int(input("digite um numero que será convertido em anos, semanas e dias:"))
-anos = num // 365
-semanas = num % 365 // 7
-dias = num % 365 % 7
-print (f"anos:{anos}, semanas: {semanas}, dias: {dias}")'''
+'''mult = 1
+a = 1
+for cont in range(1, 10):
+    for cont in range(1, 10):
+        print(f"{cont}x{a} = {cont * a}")
+    print("=========================================")
+    a += 1'''
+
+# Questão 12
+'''n = int(input("digite um numero para saber se é número perfeito: "))
+soma = 0
+for cont in range(1, n):
+    if n % cont == 0:
+        soma += cont
+if soma == n:
+    print("O número é perfeito!")
+else:
+    print("O número é imperfeito :/")
+    print(soma)'''
+
+# Questão 13
+'''for cont in range(1000, 2000):
+    if cont % 11 == 5:
+        print(f"{cont} % {11} = 5")'''
+
+# Questão 14
+'''soma = 1
+for cont in range(1, 65):
+    soma += (soma * 2)
+print(soma)'''
+
+# Questão 15
+'''for cont in range(1000, 9999):
+    num = cont
+    first = num // 100
+    last = num % 100
+    soma = first + last
+    quad = soma**2
+    if quad == cont:
+        print(f"{first} + {last} = {soma}")
+        print(f"{soma}**2 = {quad}")
+        print("===============")'''
