@@ -45,19 +45,20 @@ for cont in range(1, n):
     fatorial = fatorial * cont
 print(fatorial)'''
 # Questão 07
-'''k = int(input("digite um numero maior q zero: "))
-n = int(input("digite um numero maior ou igual ao anterior: "))
+k = int(input("digite um numero: "))
+n = int(input("digite um numero: "))
 fatN = n
 fatK = k
-fatC = n - k
+fatX = n - k
 for cont in range(1, n):
     fatN *= cont
 for cont in range(1, k):
     fatK *= cont
 for cont in range(1, n - k):
-    fatC *= cont
-result = fatN / (fatK * (fatC))
-print(result)'''
+    fatX *= cont
+result = fatN / (fatK * (fatX))
+print(fatK)
+print(result)
 
 # Questão 08
 '''a = int(input("digite um numero:"))
